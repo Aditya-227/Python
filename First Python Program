@@ -1,0 +1,43 @@
+x= "Aditya Verma"
+x[1:7]
+x= "Aditya Verma"
+print(x.upper())
+print(x.lower())
+print(bool(2>1))
+print(bool(2<1))
+print(bool(2==1))
+mylist=[54,64,74,84,'Aditya',True,False]
+print(mylist)
+mylist=[54,64,74,84,'Aditya',True,False]
+print(mylist[2:5])
+print(mylist[-1:])
+my_list=[20,40,60,80]
+my_list =[10,20,30,40]
+my_list[1] =10
+my_list[3]=30
+print(my_list)
+my_list[1:2] =[10,30]
+print(my_list)
+my_list.insert(2,50)
+print(my_list)
+my_list.append(50)
+my_list.append(60)
+print(my_list)
+mylist1=[10,20,30,40]
+mylist2=[44,66,78,92]
+mylist1.extend(mylist2)
+print(mylist1)
+print(mylist2)
+mylist=[10,20,30]
+mytuple=(40,50)
+mylist.extend(mytuple)
+print(mylist)
+mylist=['apple','orange','banana']
+mylist.remove('banana')
+print(mylist)
+mylist=['apple','orange','banana']
+mylist.pop(1)
+print(mylist)
+mylist=['apple','orange','banana']
+mylist.clear()
+print(mylist)
