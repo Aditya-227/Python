@@ -1,5 +1,4 @@
 x= "Aditya Verma"
-x[1:7]
 x= "Aditya Verma"
 print(x.upper())
 print(x.lower())
