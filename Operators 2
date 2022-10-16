@@ -1,0 +1,72 @@
+#Identity Operator
+a=[15,25]
+b=[15,25]
+c=a
+
+print(a==b) #it returns true because a is equals to b
+
+#is not operator returns true if both variable are not the same object
+
+print(a is not c) #it returns false as a is the same object as c
+
+print(b is not c)# it returns true because b is the not the same object as c
+
+print(a!=b)#it returns false as a is equals to b
+
+
+
+#Membership  Operator
+
+#These operators are used to test if a sequence is present or not in an object
+a=[10,20,30,40]
+
+print(20 in a)
+print(20 not in a)
+#in operator -----it returns true it sequence is present in an object
+#not in operator -----it returns true it sequence is not present in an object
+
+
+
+
+
+#Bitwise operator
+#They are used to compare binary numbers
+#&=> AND => if both bits are 1 , it sets each bits to 1
+
+#| => OR => if one of the two bits is 1, it sets each bit to 1, otherwise 0
+#^ => XOR => if only one of the bits is 1 ,it sets each bit to 1
+# ~ => Inverts all the bits,or in other words complements operator,or it returns it complement to another[A=(-A+1)]
+
+
+
+#<< => zero fill left shift => the binary number is appended with o,s at the end
+#>> => Right shift => in simple terms the right side of the bits is removed
+
+
+
+
+x= 10
+y= 5
+print(x&y)
+
+x= 10
+y= 5
+print(x|y)
+
+x= 10
+y= 7
+print(x^y)
+
+x= 10
+y= 5
+print(~x)
+
+a=20
+y=2
+c=a<<y
+print(c)
+
+a=20
+y=2
+c=a>>y
+print(c)
