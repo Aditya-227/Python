@@ -1,0 +1,107 @@
+#if else condition
+#some imp logical conditions
+#Equals x==y
+#Not Equals x!=y
+#less than x<y
+#greater than z>y
+#less than equal x<=y
+#greater than equal x>=y
+
+
+
+#if (condition):
+    #code if the condition is true
+x=20
+y=10
+if (20>10):
+    print("20 is greater than 10")
+if (20<10):
+    print("20 is less than 10")
+if (x<y):
+    print("x is greater than y")
+else:
+    print("x is equals to or less than y")
+#student can enter the college if student enter time is less than college entry time
+#if students come at college entry time then student is allowed but with late remarks
+CollegeEntryTime =9
+studentEnterTime=10
+if(studentEnterTime<CollegeEntryTime):
+    print("you can enter in the college")
+else:
+    print("go back to hostel")
+CollegeEntryTime =9
+studentEnterTime=8
+if(studentEnterTime<CollegeEntryTime):
+    print("you can enter in the college")
+else:
+    print("go back to hostel")
+CollegeEntryTime =9
+studentEnterTime=10
+if(studentEnterTime<CollegeEntryTime):
+    print("you can enter in the college")
+elif(studentEnterTime==CollegeEntryTime):
+    print("you can enter with late remarks")
+else:
+    print("go back to hostel")
+CollegeEntryTime =9
+studentEnterTime=9
+if(studentEnterTime<CollegeEntryTime):
+    print("you can enter in the college")
+elif(studentEnterTime==CollegeEntryTime):
+    print("you can enter with late remarks")
+else:
+    print("go back to hostel")
+CollegeEntryTime =9
+studentEnterTime=13
+if(studentEnterTime<CollegeEntryTime):
+    print("you can enter in the college")
+elif(studentEnterTime==CollegeEntryTime):
+    print("you can enter with late remarks")
+elif(studentEnterTime>12):
+    print("allowed to enter in the college with proper felicitation")
+else:
+    print("go back to hostel")
+#short hand if condition
+
+#if(10>5):print("10 is greater than 5")
+#short hand is-else condition
+#x=20
+#y=40
+#print("X") if x<y else print("Y")
+
+
+#and and or keywords
+
+x=10
+y=20
+z=30
+#if(x<y and x<z):
+    #print("x is lesser than all")
+#x=10
+#y=20
+#z=5
+#if(x<y and x<z):
+    #print("x is lesser than all")
+if(x<y or x<z):
+    print("both the condition are true")
+
+
+#nested conditions
+age=12
+if(age<18):
+    print("age is less than 18")
+    if (age<10):
+        print("the person is a minor")
+    else:
+        print("the person is allowed in the theaters")
+
+
+age=18
+if(age<18):
+    print("age is less than 18")
+    if (age<10):
+        print("the person is a minor")
+    else:
+        print("the person is allowed in the theaters")#range for this else is 10-17
+else:
+    print("age is greater than or equal to 18")
