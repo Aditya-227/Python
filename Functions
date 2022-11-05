@@ -1,0 +1,115 @@
+#functions
+#function are a bllock of code that will only run or execute when called
+def myFunction():
+    print("hello")
+    print("hi")
+    print("bye")
+print(1)
+myFunctin()
+print("hello")
+print("hi")
+print("bye")
+
+
+
+print(2)
+print(3)
+print(4)
+print("hello")
+print("hi")
+print("bye")
+
+
+print(5)
+print(6)
+print("hello")
+print("hi")
+print("bye")
+
+
+print(7)
+print("hello")
+print("hi")
+print("bye")
+
+
+
+
+
+def myFunction():
+    print("hello")
+    print("hi")
+    print("bye")
+print(1)
+myFunction()#function call or function invocation
+
+
+
+
+print(2)
+print(3)
+print(4)
+myFunction()
+
+print(5)
+print(6)
+myFunction()
+
+print(7)
+myFunction()
+
+
+
+
+
+
+#functions
+#function are a bllock of code that will only run or execute when called
+def printfirstname(name):
+    print("my name is :"+ name )
+    #arguments are dat that are passed during function calling
+printfirstname("john")
+printfirstname("peter")
+
+
+
+
+#functions
+#function are a bllock of code that will only run or execute when called
+#parameter are created where function is declared 
+def printfirstname(name, age):
+    print("my name is :"+ name + "my age is" + age)
+    #arguments are dat that are passed during function calling
+printfirstname("john","20")
+printfirstname("peter","30")
+
+
+
+
+#create a functions that print sum of two integers
+
+def printsum(num1,num2):
+    print(num1+num2)
+printsum(10,20)
+printsum(40,20)
+
+
+
+
+
+def printsum(num1,num2):
+    return(num1+num2)#it will return the value
+print(printsum(10,20))
+print(printsum(40,20)
+
+
+
+
+#create a functions that print sum of two integers
+def printsum(num1,num2):
+    return(num1+num2)#it will return the value
+    print("hello")
+    print("hello")
+    print("hello")
+print(printsum(10,20))
+print(printsum(40,20)
